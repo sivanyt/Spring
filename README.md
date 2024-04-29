@@ -37,28 +37,28 @@ System Behaviours:
 REST API endpoints:
 1. Створення опитування:
 - Метод: POST
-- URL: /surveys
+- /api/surveys
 - Параметри: тип, призначення, назва, початкова та кінцева дата
 2. Додавання клієнта до опитування:
 - Метод: POST
-- URL: /surveys/{survey_id}/clients
+- /api/surveys/{survey_id}/clients
 - Параметри: ім'я клієнта, початкова дата
 3. Встановлення кінцевої дати для опитування:
 - Метод: PUT
-- URL: /surveys/{survey_id}
+- /api/surveys/{survey_id}
 - Параметри: кінцева дата
 4. Отримання результатів обробки:
 - Метод: GET
-- URL: /surveys/{survey_id}/results
+- /api/surveys/{survey_id}/results
 5. Визначення типу опитування:
 - Метод: GET
-- URL: /surveys/{survey_id}/type
+- /api/surveys/{survey_id}/type
 6. Встановлення цілей та намірів опитування:
 - Метод: PUT
-- URL: /surveys/{survey_id}
+- /api/surveys/{survey_id}
 7. Отримання кількості планованих опитувань:
 - Метод: GET
-- URL: /surveys/{survey_id}/planned_amount
+- /api/surveys/{survey_id}/planned_amount
 8. Перегляд інформації про квартали:
 - Метод: GET
-- URL: /quarters/{quarter_id}/surveys
+- /api/quarters/{quarter_id}/surveys
